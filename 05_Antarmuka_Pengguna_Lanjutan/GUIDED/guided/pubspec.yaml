@@ -1,0 +1,27 @@
+name: guided
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"  # Pastikan versi SDK kompatibel dengan versi Flutter Anda
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # Tambahkan package lain jika diperlukan
+  http: 1.2.2  # Jika Anda menggunakan http untuk load gambar dari URL
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # Gunakan lint versi terbaru yang kompatibel
+  
+flutter:
+  uses-material-design: true
+
+  # Jika Anda menggunakan folder aset untuk gambar lokal
+
