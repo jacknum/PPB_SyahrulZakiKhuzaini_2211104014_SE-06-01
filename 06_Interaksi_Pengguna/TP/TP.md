@@ -1,0 +1,57 @@
+# Cover 
+<div align="center">
+TUGAS PENDAHULUAN <br>
+PEMROGRAMAN PERANGKAT BERGERAK <br>
+<br>
+MODUL V <br>
+ANTARMUKA PENGGUNA LANJUTAN <br>
+
+<img src="https://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
+
+<br>
+
+Disusun Oleh: <br>
+Syahrul Zaki Khuzaini/2211104014 <br>
+SE-06-01 <br>
+
+<br>
+
+Asisten Praktikum : <br>
+Muhammad Faza Zulian Gesit Al Barru <br>
+Aisyah Hasna Aulia <br>
+
+<br>
+
+Dosen Pengampu : <br>
+Yudha Islami Sulistya, S.Kom., M.Cs <br>
+
+<br>
+
+PROGRAM STUDI S1 REKAYASSA PERANGKAT LUNAK <br>
+FAKULTAS INFORMATIKA <br> 
+TELKOM UNIVERSITY PURWOKERTO <br>
+
+</div>
+
+## Tugas Pendahuluan
+---
+
+### A. Soal <br>
+![image](img/soal.png)
+<br>
+
+
+#### Source Code <br>
+   
+![image](img/code.png)
+<br>
+
+#### Screenshot Output<br>
+
+![image](img/outputberanda.png)
+![image](img/outputwisata.png)
+![image](img/outputprofil.png)
+<br>
+
+#### Deskripsi Program <br>
+Kode di atas membuat aplikasi Flutter dengan BottomNavigationBar yang menampilkan tiga halaman berbeda: Beranda, Wisata, dan Profile. Aplikasi ini menggunakan StatefulWidget untuk mengelola perubahan halaman saat pengguna mengetuk ikon di bawah. Setiap kali ikon dipilih, indeks (_selectedIndex) diperbarui dan halaman yang sesuai dari daftar _widgetOptions ditampilkan di bagian tengah layar. BottomNavigationBar juga diatur dengan warna item terpilih menjadi amber, sedangkan item yang tidak dipilih berwarna hitam.
