@@ -3,8 +3,8 @@
 TUGAS PENDAHULUAN <br>
 PEMROGRAMAN PERANGKAT BERGERAK <br>
 <br>
-MODUL VI <br>
-INTERAKSI PENGGUNA <br>
+MODUL VII <br>
+NAVIGASI DAN NOTIFIKASI <br>
 
 <img src="https://lac.telkomuniversity.ac.id/wp-content/uploads/2021/01/cropped-1200px-Telkom_University_Logo.svg-270x270.png" width="250px">
 
@@ -37,7 +37,8 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 ---
 
 ### A. Soal <br>
-![image](img/soal.png)
+a. Buatlah satu project baru, yang mana di dalamnya terdapat navigasi untuk pindah
+dari satu halaman ke halaman lainnya
 <br>
 
 
@@ -48,10 +49,9 @@ TELKOM UNIVERSITY PURWOKERTO <br>
 
 #### Screenshot Output<br>
 
-![image](img/outputberanda.png)
-![image](img/outputwisata.png)
-![image](img/outputprofil.png)
+![image](img/output1.png)
+![image](img/output2.png)
 <br>
 
 #### Deskripsi Program <br>
-Kode di atas membuat aplikasi Flutter dengan BottomNavigationBar yang menampilkan tiga halaman berbeda: Beranda, Wisata, dan Profile. Aplikasi ini menggunakan StatefulWidget untuk mengelola perubahan halaman saat pengguna mengetuk ikon di bawah. Setiap kali ikon dipilih, indeks (_selectedIndex) diperbarui dan halaman yang sesuai dari daftar _widgetOptions ditampilkan di bagian tengah layar. BottomNavigationBar juga diatur dengan warna item terpilih menjadi amber, sedangkan item yang tidak dipilih berwarna hitam.
+Kode tersebut adalah sebuah proyek Flutter sederhana dengan navigasi antar halaman. Di dalam main.dart, fungsi main memulai aplikasi, dan widget MyApp mengatur tema serta rute halaman. HomePage memiliki tombol yang menggunakan Navigator.pushNamed untuk berpindah ke SecondPage, sedangkan SecondPage memiliki tombol untuk kembali ke HomePage dengan Navigator.pop. Dengan struktur ini, pengguna dapat berpindah antar halaman dengan mudah menggunakan nama rute yang sudah ditentukan.
